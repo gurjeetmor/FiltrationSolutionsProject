@@ -1,0 +1,36 @@
+﻿@model IEnumerable<FiltrationSolutionsLtd.Models.ProductCategory>
+<link href="~/Content/MyStyle.css" rel="stylesheet" />
+<div class="container">
+    <div class="row">
+        <ul class="breadcrumb">
+            <li><a href="@Url.Action("Index", "Home")">Filtration Solutions</a></li>
+            <li>Products</li>
+        </ul>
+    </div>
+    <div class="row">
+        @{
+            Html.RenderAction("CategoryNavBarList", "Product");
+        }
+
+        <div class="col-md-9">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    if (item.Id <= 7)
+                    {
+                        <div class="col-md-4">
+                            <a href="@Url.Action("BrowseCategoryProduct", new { categoryId = item.Id })" style="text-decoration:none;">
+                                <h4>@item.CategoryName</h4>
+                                <img src="@Url.Content(item.ImageUrl)" class="img-responsive" style="width:100%; height:250px;" />
+                            </a>
+                           
+                        </div>
+                    }
+                }
+
+            </div>
+            
+            </div>
+    </div>
+</div>
+

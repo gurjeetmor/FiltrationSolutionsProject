@@ -1,0 +1,263 @@
+﻿
+.carousel .carousel-inner .item img {
+    height: 70%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:688px) {
+    .carousel-item > img {
+        max-height: 146px;
+    }
+}
+
+.carousel .carousel-inner .item h4 {
+    text-align: center;
+}
+.body-content {
+    position:relative;
+    height:100%;
+}
+.home-container {
+    text-align: center;
+    height: 70%;
+    width: 100%;
+    margin-top:2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-zoom-result {
+    border: 1px solid #d4d4d4;
+    /*set the size of the result div:*/
+    width: 300px;
+    height: 300px;
+}
+
+.img-zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    /*set the size of the lens:*/
+    width: 40px;
+    height: 40px;
+}
+ 
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: white;
+}
+
+    /* Display list items side by side */
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 14px;
+    }
+
+        /* Add a slash symbol (/) before/behind each list item */
+        ul.breadcrumb li + li:before {
+            padding: 8px;
+            color: black;
+            content: "/\00a0";
+        }
+
+        /* Add a color to all links inside the list */
+        ul.breadcrumb li a {
+            color: #A9A9A9;
+            text-decoration: none;
+        }
+
+            /* Add a color on mouse-over */
+            ul.breadcrumb li a:hover {
+                color: #000000;
+                text-decoration: underline;
+            }
+a {
+    color: #00BFFF;
+    text-decoration: none;
+}
+    a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+    a:visited {
+        text-decoration: none;
+    }
+h3 {
+    color: #00BFFF;
+}
+h4 {
+    margin-top: 20px;
+    color:#222;
+}
+footer{
+    
+    /*position:absolute;
+    bottom:0;
+    left:0;
+    right:0;*/
+}
+/*.clearfix::before{
+    content:"";
+    display:block;
+    position:relative;
+    clear:both;
+}
+html, body{
+    height:100%;
+}*/
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+} 
+
+    /* Add a hover effect if you want */
+    .fa:hover {
+        opacity: 0.7;
+    }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+@media (max-width: 768px){
+    .navbar-fixed-top {
+        /*min-height: 65px;*/
+    }
+    .navbar-brand{
+        padding:5px;
+    }
+    .navbar-inverse .navbar-nav > li > a{
+        width:100%;
+        text-align:center;
+    }
+    .nav > li{
+        clear:both;
+        text-align:center;
+    }
+    .body-content{
+        margin-top:60px;
+    }
+    .navbar-brand > img {
+        height: 45px;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-fixed-top {
+        min-height: 65px;
+    }
+    .navbar-brand{
+        padding:10px 10px;
+    }
+    .navbar-brand > img {
+        height: 65px;
+    }
+    .navbar-nav{
+        float:right;
+    }
+    .body-content {
+        margin-top: 85px;
+    }   
+}
+
+@media (max-width: 992px) {
+    .nav-pills > li > a {
+        display:none;
+    }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .row {
+        margin: auto;
+        width: 90%;
+    }
+    .navbar-brand{
+        padding:17px 0px;
+    }
+    .navbar-brand > img {
+        height: 48px;
+    }  
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 65px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav > li > a {
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size:1.5em;
+    }
+    .col-md-5 > video {
+        height: auto;
+        width: 100%;
+        display:block;
+    }
+    .col-md-5 > img {
+        height: auto;
+        width: 100%;
+        display:block;
+    }
+    .row {
+        margin: auto;
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+@media (min-width:768px) {
+    .navbar-inverse .navbar-nav > li > a {
+        color: #00BFFF;
+        /*font-family: Garamond;*/ 
+        font-size: 1.4em;
+    }
+    .col-md-5 > video {
+        height: auto;
+        width: 100%;
+    }
+
+    .col-md-5 > img {
+        height: auto;
+        width: 100%;
+    }
+}
+.breadcrumb{
+    margin-bottom:0px;
+}
+.home {
+    font: Arial, Helvetica, sans-serif;
+    font-size: 62px;
+}
+.caption>p{
+    text-align:center;
+}
+.nav-pills > li > a {
+    color: black;
+    font-size: 17px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus > .active {
+    color: #00BFFF;
+    background-color: whitesmoke;
+}

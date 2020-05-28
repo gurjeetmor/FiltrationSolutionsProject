@@ -1,0 +1,60 @@
+﻿
+<link href="~/Content/MyStyle.css" rel="stylesheet" />
+<div class="container">
+    <div class="home-container">
+
+        <div class="row">
+            <div class="col-md-12" style="background-color:black;">
+                @{
+                    Html.RenderAction("Carousel", "Home");
+                }
+            </div>
+
+
+        </div>
+    </div>
+    
+    <div class="row" style="text-align:center;">
+
+        <h2>Giving people independent and professional filtration advice.</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h3><a href="@Url.Action("BrowseServiceCategory", "Services", new { categoryId = 8 })">SALES</a></h3>
+            <p>
+                We can access most types of filters and are ready to work with you on current, new or
+                future projects.
+                <a href="@Url.Action("BrowseServiceCategory", "Services", new { categoryId = 8 })" style="color:black;"><b>Find out more..</b></a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h3><a href="@Url.Action("BrowseServiceCategory", "Services", new { categoryId = 9 })">SERVICES</a></h3>
+            <p>
+                We offer to customize your preventative maintenance agreements for filtration equipment and other areas of your plant.
+            </p>
+            <p>
+                Free initial consultation for the first hour.
+                <a href="@Url.Action("BrowseServiceCategory", "Services", new { categoryId = 9 })" style="color:black;"><b>Find out more..</b></a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h3><a href="@Url.Action("BrowseServiceCategory", "Services", new { categoryId = 10 })">CLEANING</a></h3>
+            <p>
+                Have you considered saving thousands of valuable dollars per year by simply cleaning
+                your filters?
+            </p>
+            <p>
+                Have you been told that you can’t clean filters by your incumbent supplier or filter
+                manufacturer?
+            </p>
+            <p>Has your current supplier ever asked if you wanted to investigate this option?</p>
+            <p>
+                We can confidentially discuss how economical it can be and identify if your current filter
+                life can be extended by using dedicated cleaning processes.
+                <a href="@Url.Action("BrowseServiceCategory", "Services", new { categoryId = 10 })" style="color:black;"><b>Find out more..</b></a>
+            </p>
+        </div>
+    </div>
+</div>
+

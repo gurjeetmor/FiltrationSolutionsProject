@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Gurjeet kaur\Desktop\FiltrationSolution</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/CaptchaMvc.dll">
+      <publishTime>11/04/2013 13:26:52</publishTime>
+    </File>
+    <File Include="bin/CaptchaMvc.pdb">
+      <publishTime>11/04/2013 13:26:52</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/FiltrationSolutionsLtd.dll">
+      <publishTime>07/01/2019 10:47:58</publishTime>
+    </File>
+    <File Include="bin/FiltrationSolutionsLtd.pdb">
+      <publishTime>07/01/2019 10:47:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 12:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 10:48:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 12:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 12:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 12:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 12:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 12:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 12:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 12:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 12:38:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>03/30/2019 21:59:29</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>04/20/2019 13:55:04</publishTime>
+    </File>
+    <File Include="Content/drift-basic.min.css">
+      <publishTime>02/11/2019 22:11:43</publishTime>
+    </File>
+    <File Include="Content/MyStyle.css">
+      <publishTime>04/28/2019 12:54:12</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>04/20/2019 14:08:08</publishTime>
+    </File>
+    <File Include="Content/siteVideo/Filtration Video.mp4">
+      <publishTime>04/20/2019 18:32:18</publishTime>
+    </File>
+    <File Include="Content/siteVideo/FiltrationSolutionsVideo.mp4">
+      <publishTime>03/27/2019 19:08:11</publishTime>
+    </File>
+    <File Include="Content/siteVideo/finalVideo.mp4">
+      <publishTime>03/30/2019 12:20:22</publishTime>
+    </File>
+    <File Include="Content/siteVideo/Play button.jpg">
+      <publishTime>04/20/2019 18:52:50</publishTime>
+    </File>
+    <File Include="Content/siteVideo/play.png">
+      <publishTime>04/20/2019 19:00:30</publishTime>
+    </File>
+    <File Include="Content/siteVideo/video final.mp4">
+      <publishTime>03/30/2019 12:35:29</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/11/2019 21:19:56</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/11/2019 21:19:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/11/2019 21:19:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/11/2019 21:19:55</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/11/2019 17:32:19</publishTime>
+    </File>
+    <File Include="ProductImages/2 Chris Redshaw photo %281%29.JPG">
+      <publishTime>04/20/2019 10:39:41</publishTime>
+    </File>
+    <File Include="ProductImages/Air con intake.JPG">
+      <publishTime>03/12/2019 11:15:51</publishTime>
+    </File>
+    <File Include="ProductImages/Anti-static Filter Cartridge.jpg">
+      <publishTime>03/12/2019 11:36:37</publishTime>
+    </File>
+    <File Include="ProductImages/Apple-iPhone-6-amp-iPhone-6-Plus.jpg">
+      <publishTime>02/11/2019 21:31:21</publishTime>
+    </File>
+    <File Include="ProductImages/Bag and HEPA.jpg">
+      <publishTime>03/12/2019 11:40:33</publishTime>
+    </File>
+    <File Include="ProductImages/Blog.jpg">
+      <publishTime>05/04/2019 17:48:02</publishTime>
+    </File>
+    <File Include="ProductImages/Capture.JPG">
+      <publishTime>03/29/2019 08:01:46</publishTime>
+    </File>
+    <File Include="ProductImages/Cardboard Frame Filters.jpg">
+      <publishTime>02/22/2019 14:24:48</publishTime>
+    </File>
+    <File Include="ProductImages/Carousel Sales.jpg">
+      <publishTime>04/13/2019 17:34:49</publishTime>
+    </File>
+    <File Include="ProductImages/Cleaning Filter.JPG">
+      <publishTime>04/20/2019 10:48:47</publishTime>
+    </File>
+    <File Include="ProductImages/Cleaning Recycle.jpg">
+      <publishTime>04/20/2019 10:52:36</publishTime>
+    </File>
+    <File Include="ProductImages/Cleaning.JPG">
+      <publishTime>04/13/2019 17:36:29</publishTime>
+    </File>
+    <File Include="ProductImages/Compact Filters.jpg">
+      <publishTime>05/04/2019 16:54:22</publishTime>
+    </File>
+    <File Include="ProductImages/Company Location.JPG">
+      <publishTime>04/20/2019 17:59:17</publishTime>
+    </File>
+    <File Include="ProductImages/Contact Us.jpg">
+      <publishTime>02/25/2019 18:21:55</publishTime>
+    </File>
+    <File Include="ProductImages/Dalamatic style.jpg">
+      <publishTime>03/12/2019 11:27:20</publishTime>
+    </File>
+    <File Include="ProductImages/DC being serviced.jpg">
+      <publishTime>03/12/2019 11:43:57</publishTime>
+    </File>
+    <File Include="ProductImages/DC cartridges.jpg">
+      <publishTime>03/12/2019 10:32:51</publishTime>
+    </File>
+    <File Include="ProductImages/DC filter bank.jpg">
+      <publishTime>03/12/2019 10:32:51</publishTime>
+    </File>
+    <File Include="ProductImages/DC internals.jpg">
+      <publishTime>03/12/2019 10:32:51</publishTime>
+    </File>
+    <File Include="ProductImages/DC modular.jpg">
+      <publishTime>03/12/2019 10:32:51</publishTime>
+    </File>
+    <File Include="ProductImages/DIN style.jpg">
+      <publishTime>03/12/2019 11:15:51</publishTime>
+    </File>
+    <File Include="ProductImages/DIN Various.jpg">
+      <publishTime>03/12/2019 11:27:20</publishTime>
+    </File>
+    <File Include="ProductImages/Dust Collector  Air Filters.jpg">
+      <publishTime>03/12/2019 10:32:51</publishTime>
+    </File>
+    <File Include="ProductImages/Dust Collector.jpg">
+      <publishTime>03/12/2019 10:32:51</publishTime>
+    </File>
+    <File Include="ProductImages/Earthmoving 2.JPG">
+      <publishTime>03/12/2019 11:15:51</publishTime>
+    </File>
+    <File Include="ProductImages/Earthmoving 3 cleaned.JPG">
+      <publishTime>03/12/2019 11:15:51</publishTime>
+    </File>
+    <File Include="ProductImages/Earthmoving.JPG">
+      <publishTime>03/12/2019 11:15:51</publishTime>
+    </File>
+    <File Include="ProductImages/Filtalon PW Filter - G4.jpg">
+      <publishTime>02/22/2019 18:54:13</publishTime>
+    </File>
+    <File Include="ProductImages/Flat - Protected.jpg">
+      <publishTime>03/12/2019 11:36:37</publishTime>
+    </File>
+    <File Include="ProductImages/Flat Panel Dirty Filter.JPG">
+      <publishTime>03/12/2019 11:15:51</publishTime>
+    </File>
+    <File Include="ProductImages/Flat Panel Filters.jpg">
+      <publishTime>02/22/2019 18:54:13</publishTime>
+    </File>
+    <File Include="ProductImages/FS cleaning process THEO.JPG">
+      <publishTime>04/20/2019 10:51:00</publishTime>
+    </File>
+    <File Include="ProductImages/Gas Turbine.jpg">
+      <publishTime>03/12/2019 11:36:37</publishTime>
+    </File>
+    <File Include="ProductImages/HEPA Filters.jpg">
+      <publishTime>05/04/2019 16:56:26</publishTime>
+    </File>
+    <File Include="ProductImages/HEPA.jpg">
+      <publishTime>03/12/2019 11:40:33</publishTime>
+    </File>
+    <File Include="ProductImages/Image 2.jpg">
+      <publishTime>02/22/2019 13:54:42</publishTime>
+    </File>
+    <File Include="ProductImages/Image.jpg">
+      <publishTime>02/22/2019 13:54:42</publishTime>
+    </File>
+    <File Include="ProductImages/Image1.jpg">
+      <publishTime>02/22/2019 13:54:42</publishTime>
+    </File>
+    <File Include="ProductImages/Insect Filter.jpg">
+      <publishTime>05/04/2019 16:44:22</publishTime>
+    </File>
+    <File Include="ProductImages/Laplock PW Filter.jpg">
+      <publishTime>02/22/2019 18:54:13</publishTime>
+    </File>
+    <File Include="ProductImages/Large Pulse Pleats cleaned.JPG">
+      <publishTime>03/12/2019 11:15:51</publishTime>
+    </File>
+    <File Include="ProductImages/Liquid Filtrations.jpg">
+      <publishTime>05/04/2019 17:05:06</publishTime>
+    </File>
+    <File Include="ProductImages/logowith white.jpg">
+      <publishTime>03/27/2019 21:45:33</publishTime>
+    </File>
+    <File Include="ProductImages/logowithblack.jpg">
+      <publishTime>03/17/2019 22:29:38</publishTime>
+    </File>
+    <File Include="ProductImages/logowithblack1.jpg">
+      <publishTime>04/20/2019 17:14:59</publishTime>
+    </File>
+    <File Include="ProductImages/Mini Pleat.jpg">
+      <publishTime>03/12/2019 11:27:20</publishTime>
+    </File>
+    <File Include="ProductImages/Nano fiber with fire retardant.jpg">
+      <publishTime>03/12/2019 10:32:51</publishTime>
+    </File>
+    <File Include="ProductImages/Oil-proof &amp; Waterproof.jpg">
+      <publishTime>03/12/2019 10:32:51</publishTime>
+    </File>
+    <File Include="ProductImages/Pleated - Various.jpg">
+      <publishTime>03/12/2019 11:27:21</publishTime>
+    </File>
+    <File Include="ProductImages/Pleated.jpg">
+      <publishTime>03/12/2019 11:27:21</publishTime>
+    </File>
+    <File Include="ProductImages/Pockets.jpg">
+      <publishTime>03/12/2019 11:40:33</publishTime>
+    </File>
+    <File Include="ProductImages/Polyester.jpg">
+      <publishTime>03/12/2019 11:27:21</publishTime>
+    </File>
+    <File Include="ProductImages/Primary filter.jpg">
+      <publishTime>04/20/2019 12:17:45</publishTime>
+    </File>
+    <File Include="ProductImages/Pulse Pleats 2 M long.JPG">
+      <publishTime>03/12/2019 10:32:51</publishTime>
+    </File>
+    <File Include="ProductImages/Quotes Order.jpg">
+      <publishTime>04/20/2019 11:34:16</publishTime>
+    </File>
+    <File Include="ProductImages/reCaptcha.png">
+      <publishTime>03/29/2019 12:15:59</publishTime>
+    </File>
+    <File Include="ProductImages/Red-Flowers.bmp">
+      <publishTime>02/11/2019 20:05:41</publishTime>
+    </File>
+    <File Include="ProductImages/Sales.jpg">
+      <publishTime>04/20/2019 11:18:12</publishTime>
+    </File>
+    <File Include="ProductImages/Service agreement.jpg">
+      <publishTime>04/20/2019 11:30:15</publishTime>
+    </File>
+    <File Include="ProductImages/Square Cover.jpg">
+      <publishTime>03/12/2019 10:32:51</publishTime>
+    </File>
+    <File Include="ProductImages/Tri Lobular with aluminum cover.jpg">
+      <publishTime>03/12/2019 10:32:51</publishTime>
+    </File>
+    <File Include="ProductImages/Tri Lobular.JPG">
+      <publishTime>03/12/2019 11:15:51</publishTime>
+    </File>
+    <File Include="ProductImages/Vee Panels.JPG">
+      <publishTime>03/12/2019 11:15:51</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>02/11/2019 21:19:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/11/2019 21:19:55</publishTime>
+    </File>
+    <File Include="Scripts/Drift.min.js">
+      <publishTime>02/11/2019 22:12:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>02/11/2019 21:19:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>02/11/2019 21:19:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>02/11/2019 21:19:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>02/25/2019 16:55:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>02/25/2019 16:55:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>02/25/2019 16:55:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>02/25/2019 16:55:56</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>02/11/2019 21:20:00</publishTime>
+    </File>
+    <File Include="TermandCondition/Filtration Solutions Limited Privacy Policy June 2019.pdf">
+      <publishTime>06/14/2019 17:45:28</publishTime>
+    </File>
+    <File Include="TermandCondition/Filtration Solutions Limited Terms and Conditions June 2019.pdf">
+      <publishTime>06/14/2019 17:45:28</publishTime>
+    </File>
+    <File Include="TermandCondition/FSL Credit Application form June 2019.pdf">
+      <publishTime>06/17/2019 12:34:45</publishTime>
+    </File>
+    <File Include="Views/About/Index.cshtml">
+      <publishTime>05/04/2019 17:43:26</publishTime>
+    </File>
+    <File Include="Views/Blog/Index.cshtml">
+      <publishTime>06/14/2019 18:13:10</publishTime>
+    </File>
+    <File Include="Views/Contact/ContactUsPartial.cshtml">
+      <publishTime>02/26/2019 13:57:16</publishTime>
+    </File>
+    <File Include="Views/Contact/Index.cshtml">
+      <publishTime>06/14/2019 19:14:38</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>06/14/2019 17:55:06</publishTime>
+    </File>
+    <File Include="Views/Product/BrowseCategoryProduct.cshtml">
+      <publishTime>04/20/2019 14:05:53</publishTime>
+    </File>
+    <File Include="Views/Product/DetailsPartial.cshtml">
+      <publishTime>05/04/2019 17:17:25</publishTime>
+    </File>
+    <File Include="Views/Product/Index.cshtml">
+      <publishTime>05/04/2019 17:23:31</publishTime>
+    </File>
+    <File Include="Views/Product/ProductDescription.cshtml">
+      <publishTime>04/20/2019 18:13:25</publishTime>
+    </File>
+    <File Include="Views/Product/RequestQuotePartial.cshtml">
+      <publishTime>04/20/2019 14:04:40</publishTime>
+    </File>
+    <File Include="Views/Services/BrowseServiceCategory.cshtml">
+      <publishTime>04/20/2019 14:04:42</publishTime>
+    </File>
+    <File Include="Views/Services/DetailsPartial.cshtml">
+      <publishTime>06/14/2019 17:59:45</publishTime>
+    </File>
+    <File Include="Views/Services/Index.cshtml">
+      <publishTime>05/04/2019 17:23:45</publishTime>
+    </File>
+    <File Include="Views/Services/ServiceDescription.cshtml">
+      <publishTime>04/20/2019 18:12:49</publishTime>
+    </File>
+    <File Include="Views/Shared/CarouselView.cshtml">
+      <publishTime>04/28/2019 17:21:26</publishTime>
+    </File>
+    <File Include="Views/Shared/CategoryNavBar.cshtml">
+      <publishTime>05/04/2019 17:25:50</publishTime>
+    </File>
+    <File Include="Views/Shared/ServiceCategoryNavBar.cshtml">
+      <publishTime>05/04/2019 17:26:03</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>06/17/2019 12:46:13</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>02/11/2019 17:32:20</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>02/11/2019 21:19:47</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/01/2019 10:47:59</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

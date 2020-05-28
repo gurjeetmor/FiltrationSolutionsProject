@@ -1,0 +1,112 @@
+﻿body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*.navbar-inverse {
+    background-color: #ccc !important;
+}*/
+/*.navbar .nav > li > a, .navbar .nav > li > a::first-line,
+.navbar .nav > li.current-menu-item > a,
+.navbar .nav > li.current-menu-ancestor > a {
+    display: inline;
+    color: #00BFFF;
+    font-family: Garamond;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    
+}*/
+/*.nav navbar-nav > li {
+display: inline;
+color: red;
+font-family: Garamond;
+font-size: 1.5em;
+padding: 5px 20px;
+}*/
+.capt {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 100px;
+}
+
+#mainCaptcha {
+    position: relative;
+    left: 60px;
+    top: 5px;
+}
+
+#refresh {
+    position: relative;
+    left: 250px;
+    width: 50px;
+    height: 45px;
+    bottom: 45px;   
+    background-image: url('~/ProductImages/reCaptcha.png');
+}
+
+#txtInput, #Button1 {
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    height:30px;
+}
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+
+select.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+.home {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+     
+}
+/*.navbar-header .navbar-brand {
+    height: 80px;
+}
+
+.navbar-header .nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navbar-header .navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}*/
+

@@ -1,0 +1,218 @@
+﻿@model FiltrationSolutionsLtd.Models.ContactUs
+
+<div class="row">
+    <div class="col-md-6">
+        <br/>
+        <img src="~/ProductImages/Company Location.jpg" style="width:80%; height:100%;" class="img-responsive" />
+        <br/>
+        <table class="table-responsive" cellpadding="10">
+            <tr>
+                <td><b>Contact: </b> </td>
+                <td>Chris Redshaw</td>
+            </tr>
+            <tr>
+                <td><b>Email: </b> </td>
+                <td><a href="mailto:chris@filtrationsolutions.co.nz">chris@filtrationsolutions.co.nz</a></td>
+            </tr>
+            <tr>
+                <td><b>Phone: </b> </td>
+                <td><a href="tel:+64211637181">0211637181</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="col-md-6">
+        <h3>Contact Us</h3>
+        <form action="@Url.Action("ContactUs", "Contact")" method="post" onsubmit="if (document.getElementById('agree').checked) { return true; } else { document.getElementById('checkResult').innerHTML = 'Please read and accept the terms and conditions'; return false; }">
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger", @ShowMessageBox = "True" })
+
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label>Subject: </label>
+                </div>
+                <div class="col-md-9">
+                    @Html.TextBoxFor(model => model.Subject, new { @class = "form-control", @placeholder = "Subject" })
+                    @Html.ValidationMessageFor(model => model.Subject, "")
+                </div>
+                <div class="row"></div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label>Company: </label>
+                </div>
+                <div class="col-md-9">
+                    @Html.TextBoxFor(model => model.Company, new { @class = "form-control", @placeholder = "Company" })
+                    @Html.ValidationMessageFor(model => model.Company, "")
+                </div>
+                <div class="row"></div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label>First Name: </label>
+                </div>
+                <div class="col-md-9">
+                    @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", @placeholder = "First Name" })
+                    @Html.ValidationMessageFor(model => model.FirstName, "")
+                </div>
+                <div class="row"></div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label>Last Name: </label>
+                </div>
+                <div class="col-md-9">
+                    @Html.TextBoxFor(model => model.LastName, new { @class = "form-control", @placeholder = "Last Name" })
+                    @Html.ValidationMessageFor(model => model.LastName, "")
+                </div>
+                <div class="row"></div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label>Email: </label>
+                </div>
+                <div class="col-md-9">
+                    @Html.TextBoxFor(model => model.Email, new { @class = "form-control", @placeholder = "Email Address" })
+                    @Html.ValidationMessageFor(model => model.Email, "")
+                </div>
+                <div class="row"></div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label>Phone: </label>
+                </div>
+                <div class="col-md-9">
+                    @Html.TextBoxFor(model => model.Phone, new { @class = "form-control", @placeholder = "Phone" })
+                    @Html.ValidationMessageFor(model => model.Phone, "")
+                </div>
+                <div class="row"></div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label>Message: </label>
+                </div>
+                <div class="col-md-9">
+                    @Html.TextAreaFor(model => model.Message, new { @class = "form-control", @placeholder = "Message" })
+                    @Html.ValidationMessageFor(model => model.Message, "")
+                </div>
+                <div class="row"></div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-3">
+                    <input type="checkbox" name="checkbox" value="check" id="agree" />
+                </div>
+                <div class="col-md-9">
+                    
+                    <label>I have read and agree to the <a href="~/TermandCondition/terms-and-conditions-template.pdf">Terms and Conditions</a></label>
+                    <div id="checkResult" style="color:#b94a48;"></div>
+                </div>
+
+                <div class="row"></div>
+            </div>
+            <div class="form-group">
+                <div class="capt">
+                    <h2 type="text" id="mainCaptcha"></h2>
+                    <p><img src="~/ProductImages/reCaptcha.png" id="refresh" onclick="Captcha();" class="img-responsive" /></p>
+                    <input type="text" id="txtInput" name="txtInput" />
+
+                    <input id="Button1" type="button" value="Check" class="btn btn-default" onclick="ValidCaptcha();" />
+
+                </div>
+                <div id="captchaResult" style="color:#b94a48;"></div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-12">
+                    <input type="submit" value="Submit" class="btn btn-primary" onclick="ValidCaptcha();" />
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<br />
+
+<br />
+
+@*<p><a href="#" class="btn btn-primary btn-lg" onclick="ContactUs()">Leave a Message</a></p>
+
+    <div class="container" style="width:40%; margin-top:2%">
+        <div class="modal fade" id="myModalContact">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <a href="#" class="close" data-dismiss="modal">&times;</a>
+                        <h3 class="modal-title">Contact Us</h3>
+                    </div>
+                    <div class="modal-body" id="myModalBodyContact">
+                        @* Here Modal Body will be Uploaded through Partial View(CreateCarouselPartial)
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    Script to Display the Model to Add the new Product Details in Product Detail List
+    <script>
+        var ContactUs = function () {
+            var url = "/Contact/ContactUs";
+
+            $("#myModalBodyContact").load(url, function () {
+                $("#myModalContact").modal("show");
+            })
+        }
+    </script>*@
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+@*<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>*@
+@*@using (Html.BeginForm("ContactUs", "Contact", FormMethod.Post, new { @class = "modal-form" }))*@
+
+<script>
+    
+    function Captcha() {
+        var alpha = new Array('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+            'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+            '0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
+        var i;
+        for (i = 0; i < 6; i++) {
+            var a = alpha[Math.floor(Math.random() * alpha.length)];
+            var b = alpha[Math.floor(Math.random() * alpha.length)];
+            var c = alpha[Math.floor(Math.random() * alpha.length)];
+            var d = alpha[Math.floor(Math.random() * alpha.length)];
+            var e = alpha[Math.floor(Math.random() * alpha.length)];
+            var f = alpha[Math.floor(Math.random() * alpha.length)];
+            var g = alpha[Math.floor(Math.random() * alpha.length)];
+        }
+        var code = a + ' ' + b + ' ' + ' ' + c + ' ' + d + ' ' + e + ' ' + f + ' ' + g;
+        document.getElementById("mainCaptcha").innerHTML = code
+        document.getElementById("mainCaptcha").value = code
+    }
+    function ValidCaptcha() {
+        var string1 = removeSpaces(document.getElementById('mainCaptcha').value);
+        var string2 = removeSpaces(document.getElementById('txtInput').value);
+        if (string1 == string2) {
+            return true;
+        } else {                       
+            document.getElementById('captchaResult').innerHTML = 'Captcha Validation Failed ';
+            return false;
+        }
+    }
+    function removeSpaces(string) {
+        return string.split(' ').join('');
+    }
+    window.onload = Captcha;
+</script>
+
+
+
+
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

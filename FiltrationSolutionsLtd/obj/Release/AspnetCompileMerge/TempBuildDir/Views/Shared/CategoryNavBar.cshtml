@@ -1,0 +1,21 @@
+﻿@model IEnumerable<FiltrationSolutionsLtd.Models.ProductCategory>
+<link href="~/Content/MyStyle.css" rel="stylesheet" />
+@*this is the shared partial view that is used to display the particular portion
+    of webpage or the portion that is used at several different webpages
+        this view display the vertical product category bar*@
+
+
+    <ul class="nav nav-pills nav-stacked col-md-3">
+        <li><h3>Products</h3></li>
+        @foreach (var item in Model)
+        {
+            if (item.Id <= 7)
+            {
+                <li class=@(ViewBag.ProductCategory==item.CategoryName? "active":"")><a href="@Url.Action("BrowseCategoryProduct", new { categoryId = item.Id })">@item.CategoryName</a></li>
+            }
+
+        }
+    </ul>
+
+
+
